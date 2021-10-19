@@ -1,0 +1,382 @@
+body{
+    margin: 0%;
+}
+.fullbody{
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+    float: left;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    float: left;
+    position: fixed;
+}
+.fa-pinterest{
+    font-weight: 400;
+     font-size: 23px;  
+    color: red;
+    margin-left: 27px;
+    margin-top: 12px;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+.home{
+    float: left;
+    margin-left: 18px;
+}
+.rectangle{
+    width: 85px;
+    height: 100%;
+    background-color: black;
+    border-radius: 30px;
+    float: left;
+
+}
+.font{
+    color: #fff;  
+    float: left;
+    margin-left: 15px;
+    margin-top: 11px;
+    font-weight: 800;
+    font-size: 20px;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+    /* color: var(--g-colorGray0);  */
+    text-align: center;
+}
+.sub-header{
+    width: 100%;
+    height: 60%;
+    background-color:#fff;
+    float: left;
+    margin-top: 14px;
+}
+.today{
+    color: black;
+    float: left;
+    margin-top: 12px;
+    margin-left: 18px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.form{
+    float: left;
+    height: 100%;
+    color: #333;
+    
+}
+#rect{
+    border-radius: 25px;
+    height: 100%;
+    margin-left: 18px;
+    margin-top: -1px;
+    padding-right: 690px;
+    padding-top: 33px;
+    /* background-color: transparent;  */
+     border: none; 
+     background-color: #e6ebe7;
+}
+.fa-bell{
+    float: left;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: grey;
+}
+.fa-comment-dots{
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: grey;
+}
+.circle{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    float: left;
+    background-color:  #ff8000;
+    float: left;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 14px;
+    float: left;
+}
+.fontt{
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    margin-left: 6px;
+    margin-top: 1px;
+}
+.fa-chevron-down{
+    float: left;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 19px;
+    color: grey;
+    
+}
+::placeholder{
+    padding: 10px;
+    font-style: italic;
+    font-size: 20px;
+}
+.main-body{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.pic1 {
+    width: 300px;
+    height: 440px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.pic2{
+    width: 290px;
+    height: 325px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.pic3{
+    width: 260px;
+    height: 460px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.pic4{
+    width: 340px;
+    height: 470px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.pic5{
+    width: 280px;
+    height: 126px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pic6{
+    width: 320px;
+    height: 140px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pic7{
+    width: 280px;
+    height: 150px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.pic8{
+    width: 295px;
+    height: 183px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.pic10{
+    width: 200px;
+    height: 150px;
+    float: left;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pic-block1{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.pic-block2{
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.bt:hover{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 35%;
+    background-color: red;
+    float: left;
+   
+}
+.bt::before{
+    font-weight: bold;
+    content: "Save";
+    color: #fff;
+    font-size: 16px;   
+}
+.bt1{
+    margin-left: -80px;
+    margin-top: 15px;
+    float: left;
+}
+.bt2{
+    margin-left: -80px;
+    margin-top: 15px;
+    float: left;
+}
+.bt3{
+    margin-left: -80px;
+    margin-top: 15px;
+    float: left;
+}
+.bt4{
+    margin-left: -80px;
+    margin-top: 15px;
+    float: left;
+}
+.bt5{
+    margin-left: -80px;
+    margin-top: 15px;
+    float: left;
+}
+.bt6{
+    margin-left: -80px;
+    margin-top: 15px;
+    float: left;
+}
+.bt7{
+    margin-left: -80px;
+    margin-top: 15px;
+    float: left;
+}
+.bt8{
+    margin-left: -80px;
+    margin-top: 15px;
+    float: left;
+}
+.bt9{
+    margin-left: -80px;
+    margin-top: 15px;
+    float: left;
+}
+.btt:hover{
+    width: 127px;
+    height: 40px;
+    border: none;
+    border-radius: 15%;
+    background-color: black;;
+    float: left;
+    
+}
+.btt::before{
+    font-weight: bold;
+    content: "freepick.com";
+    color: #fff; 
+    font-size: 19px;   
+}
+.btt1{
+    float: left;
+    margin-left: -280px;
+    margin-top: 395px;
+}
+.btt2{
+    float: left;
+    margin-left: -271px;
+    margin-top: 282px;
+}
+.btt3{
+    float: left;
+    margin-left: -267px;
+    margin-top: 93px;
+}
+.btt4{
+    float: left;
+    margin-left: -270px;
+    margin-top: 95px;
+}
+.btt5{
+    float: left;
+    margin-left: -185px;
+    margin-top: 117px;
+}
+.btt6{
+    float: left;
+    margin-left: -282px;
+    margin-top: 414px;
+}
+.btt7{
+    float: left;
+    margin-left: -312px;
+    margin-top: 427px;
+}
+.btt8{
+    float: left;
+    margin-left: -264px;
+    margin-top: 107px;
+}
+.btt9{
+    float: left;
+    margin-left: -302px;
+    margin-top: 107px;
+}
+.fa-arrow-circle-down{
+    
+   font-size: 15px;
+   color: black;
+   margin-left: 258px;
+   font-size: 20px;
+}
+.fa-arrow-circle-down1{
+    float: left;
+    margin-left: -351px;
+    margin-top: 401px;
+}
+.fa-arrow-circle-down2{
+    float: left;
+    margin-left: -377px;
+    margin-top: 287px;
+}
+.fa-arrow-circle-down3{
+    float: left;
+    margin-left: -267px;
+    margin-top: 93px;
+}
+.fa-arrow-circle-down4{
+    float: left;
+    margin-left: -372px;
+    margin-top: 101px;
+}
+.fa-arrow-circle-down5{
+    float: left;
+    margin-left: -185px;
+    margin-top: 117px;
+}
+.fa-arrow-circle-down6{
+    float: left;
+    margin-left: -383px;
+    margin-top: 419px;
+}
+.fa-arrow-circle-down7{
+    float: left;
+    margin-left: -420px;
+    margin-top: 433px;
+}
+.fa-arrow-circle-down8{
+    float: left;
+    margin-left: -369px;
+    margin-top: 112px;
+}
+.fa-arrow-circle-down9{
+    float: left;
+    margin-left: -398px;
+    margin-top: 113px;
+}
+
+
