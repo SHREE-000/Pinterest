@@ -27,6 +27,7 @@ body{
 .home{
     float: left;
     margin-left: 18px;
+    cursor: pointer;
 }
 .rectangle{
     width: 85px;
@@ -61,6 +62,7 @@ body{
     margin-left: 18px;
     font-weight: 900;
     font-size: 20px;
+    cursor: pointer;
 }
 .form{
     float: left;
@@ -85,6 +87,7 @@ body{
     margin-left: 10px;
     margin-top: 8px;
     color: grey;
+    cursor: pointer;
 }
 .fa-comment-dots{
     float: left;
@@ -92,6 +95,7 @@ body{
     margin-left: 20px;
     margin-top: 8px;
     color: grey;
+    cursor: pointer;
 }
 .circle{
     width: 23px;
@@ -104,6 +108,7 @@ body{
     margin-left: 20px;
     margin-top: 14px;
     float: left;
+    cursor: pointer;
 }
 .fontt{
     color: #fff;
@@ -118,6 +123,7 @@ body{
     margin-left: 15px;
     margin-top: 19px;
     color: grey;
+    cursor: pointer;
     
 }
 ::placeholder{
@@ -136,7 +142,24 @@ body{
     float: left;
     border-radius: 30px;
     margin-left: 10px;
+    cursor: pointer;
 }
+.pic1:hover{
+    opacity: 0.8;
+}
+.pic1:hover + .bt{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 35%;
+    background-color: rgb(252, 2, 2);
+    float: left;
+    content: "save";
+    color: #fff;
+    font-size: 16px;
+   
+}
+
 .pic2{
     width: 290px;
     height: 325px;
@@ -144,6 +167,21 @@ body{
     border-radius: 30px;
     margin-left: 10px;
 }
+.pic2:hover{
+    opacity: 0.8;
+}
+.pic2:hover+.bt{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 35%;
+    background-color: rgb(252, 2, 2);
+    float: left;
+    content: "save";
+    color: #fff;
+    font-size: 16px;  
+}
+
 .pic3{
     width: 260px;
     height: 460px;
@@ -151,12 +189,41 @@ body{
     border-radius: 30px;
     margin-left: 10px;
 }
+.pic3:hover{
+    opacity: 0.8;
+}
+.pic3:hover + .bt{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 35%;
+    background-color: rgb(252, 0, 0);
+    float: left;
+    content: "save";
+    color: #fff;
+    font-size: 16px; 
+}
 .pic4{
     width: 340px;
     height: 470px;
     float: left;
     border-radius: 30px;
     margin-left: 10px;
+}
+.pic4:hover{
+    opacity: 0.8;
+}
+.pic4:hover + .bt{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 35%;
+    background-color: rgb(252, 2, 2);
+    float: left;
+    content: "save";
+    color: #fff;
+    font-size: 16px;
+   
 }
 .pic5{
     width: 280px;
@@ -166,6 +233,20 @@ body{
     margin-left: 10px;
     margin-top: 10px;
 }
+.pic5:hover{
+    opacity: 0.8;
+}
+.pic5:hover+.bt{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 35%;
+    background-color: rgb(252, 2, 2);
+    float: left;
+    content: "save";
+    color: #fff;
+    font-size: 16px;
+}
 .pic6{
     width: 320px;
     height: 140px;
@@ -174,12 +255,40 @@ body{
     margin-left: 10px;
     margin-top: 10px;
 }
+.pic6:hover{
+    opacity: 0.8;
+}
+.pic6:hover+.bt{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 35%;
+    background-color: rgb(252, 2, 2);
+    float: left;
+    content: "save";
+    color: #fff;
+    font-size: 16px;
+}
 .pic7{
     width: 280px;
     height: 150px;
     float: left;
     border-radius: 30px;
     margin-left: 10px;
+}
+.pic7:hover{
+    opacity: 0.8;
+}
+.pic7:hover+.bt{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 35%;
+    background-color: rgb(252, 2, 2);
+    float: left;
+    content: "save";
+    color: #fff;
+    font-size: 16px;   
 }
 .pic8{
     width: 295px;
@@ -188,6 +297,20 @@ body{
     border-radius: 30px;
     margin-left: 10px;
 }
+.pic8:hover{
+    opacity: 0.8;
+}
+.pic8:hover+.bt{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 35%;
+    background-color: rgb(252, 2, 2);
+    float: left;
+    content: "save";
+    color: #fff;
+    font-size: 16px;
+}
 .pic10{
     width: 200px;
     height: 150px;
@@ -195,6 +318,20 @@ body{
     border-radius: 30px;
     margin-left: 10px;
     margin-top: 10px;
+}
+.pic10:hover{
+    opacity: 0.8;
+}
+.pic10:hover + .bt{
+    width: 65px;
+    height: 40px;
+    border: none;
+    border-radius: 35%;
+    background-color: rgb(252, 2, 2);
+    float: left;
+    content: "save";
+    color: #fff;
+    font-size: 16px;
 }
 .pic-block1{
     width: 50%;
@@ -211,15 +348,13 @@ body{
     height: 40px;
     border: none;
     border-radius: 35%;
-    background-color: red;
+    background-color: rgb(252, 2, 2);
     float: left;
-   
-}
-.bt::before{
-    font-weight: bold;
-    content: "Save";
+    content: "save";
     color: #fff;
-    font-size: 16px;   
+    font-size: 16px;
+    opacity: .5;
+   
 }
 .bt1{
     margin-left: -80px;
@@ -271,15 +406,12 @@ body{
     height: 40px;
     border: none;
     border-radius: 15%;
-    background-color: black;;
+    background-color: rgb(0, 0, 0);;
     float: left;
-    
-}
-.btt::before{
-    font-weight: bold;
     content: "freepick.com";
     color: #fff; 
-    font-size: 19px;   
+    font-size: 15px;
+    
 }
 .btt1{
     float: left;
@@ -327,11 +459,15 @@ body{
     margin-top: 107px;
 }
 .fa-arrow-circle-down{
+    color: transparent;
+}
+.fa-arrow-circle-down:hover{
     
    font-size: 15px;
-   color: black;
+   color: white;
    margin-left: 258px;
    font-size: 20px;
+   cursor: pointer;
 }
 .fa-arrow-circle-down1{
     float: left;
@@ -378,5 +514,12 @@ body{
     margin-left: -398px;
     margin-top: 113px;
 }
+button{
+    color: transparent;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+}
+
 
 
